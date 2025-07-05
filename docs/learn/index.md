@@ -13,7 +13,11 @@ Welcome to my daily learning log! Here I document my journey through various top
 
 ### July 2025
 
-- [July 3, 2025 - Neural Networks Fundamentals](2025/07-july/2025-07-03.md)
+- [July 3, 2025 - Month Plan setup](2025/07-july/2025-07-03.md)
+- [July 4, 2025 - Leetcode drill](2025/07-july/2025-07-04.md)
+- [July 5, 2025 - Leetcode drill](2025/07-july/2025-07-05.md)
+
+
 
 ---
 
