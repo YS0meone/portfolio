@@ -9,74 +9,74 @@ theme:
   icon:
     logo: material/city-variant
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - search.share
-    - navigation.instant
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - search.share
+  - navigation.instant
   palette:
     # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: black
-      accent: grey
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Dark mode
+    primary: black
+    accent: grey
 
     # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: white
-      accent: blue grey
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Light mode
+    primary: white
+    accent: blue grey
 nav:
-  - Home: 
-    - index.md
-  - Learn: 
-    - learn/index.md
-    - Daily Logs:
-      - July, 2025 :
-        - learn/2025/07-july/index.md
-        - learn/2025/07-july/2025-07-03.md
-        - learn/2025/07-july/2025-07-04.md
-        - learn/2025/07-july/2025-07-05.md
-        - learn/2025/07-july/2025-07-06.md
-        - learn/2025/07-july/2025-07-07.md
-        - learn/2025/07-july/2025-07-15.md
-        - learn/2025/07-july/2025-07-16.md
-        - learn/2025/07-july/2025-07-17.md
-        - learn/2025/07-july/2025-07-18.md
-        - learn/2025/07-july/2025-07-19.md
-        - learn/2025/07-july/2025-07-20.md
-        - learn/2025/07-july/2025-07-21.md
-        - learn/2025/07-july/2025-07-22.md
-
-  - Resources:
-    - resources/index.md
+- Home:
+  - index.md
+- Learn:
+  - learn/index.md
+  - Daily Logs:
+    - July, 2025:
+      - learn/2025/07-july/index.md
+      - learn/2025/07-july/2025-07-03.md
+      - learn/2025/07-july/2025-07-04.md
+      - learn/2025/07-july/2025-07-05.md
+      - learn/2025/07-july/2025-07-06.md
+      - learn/2025/07-july/2025-07-07.md
+      - learn/2025/07-july/2025-07-15.md
+      - learn/2025/07-july/2025-07-16.md
+      - learn/2025/07-july/2025-07-17.md
+      - learn/2025/07-july/2025-07-18.md
+      - learn/2025/07-july/2025-07-19.md
+      - learn/2025/07-july/2025-07-20.md
+      - learn/2025/07-july/2025-07-21.md
+      - learn/2025/07-july/2025-07-22.md
+      - learn/2025/07-july/2025-07-23.md
+- Resources:
+  - resources/index.md
 
 # Plugins
 plugins:
-  - search:
-      lang: en
-      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+- search:
+    lang: en
+    separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
 # Extra information and links
 extra:
   social:
-    - icon: fontawesome/solid/envelope
-      link: mailto:timyuan1016@gmail.com
-      name: Email
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/tim-yuan-3a9873223/
-      name: LinkedIn
-    - icon: fontawesome/brands/github
-      link: https://github.com/YS0meone
-      name: GitHub
+  - icon: fontawesome/solid/envelope
+    link: mailto:timyuan1016@gmail.com
+    name: Email
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/tim-yuan-3a9873223/
+    name: LinkedIn
+  - icon: fontawesome/brands/github
+    link: https://github.com/YS0meone
+    name: GitHub
   shortcuts:
     help: 191    # ?
     previous: 188 # ,
@@ -86,43 +86,41 @@ extra:
 
 # Copyright
 copyright: Copyright &copy; 2025 Tim Yuan. All rights reserved.
-  
+
 
 markdown_extensions:
   # Basic Markdown
-  - attr_list
-  - md_in_html
-  - tables
-  - sane_lists
-  - toc:
-      permalink: true
-  
+- attr_list
+- md_in_html
+- tables
+- sane_lists
+- toc:
+    permalink: true
+
   # PyMdown Extensions for enhanced features
-  
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.caret
+- pymdownx.mark
+- pymdownx.tilde
+- pymdownx.smartsymbols
+- pymdownx.superfences
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # Additional useful extensions
-  - def_list
-  - footnotes
-  - abbr
-  - admonition
-  - pymdownx.details
+- def_list
+- footnotes
+- abbr
+- admonition
+- pymdownx.details
