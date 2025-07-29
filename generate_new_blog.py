@@ -23,8 +23,8 @@ BLOG_TEMPLATE = """# {date} - Daily Drill
 
 #### Complexity Analysis
 
-**Time Complexity: O()**
-**Space Complexity: O()**
+- **Time Complexity: O()**
+- **Space Complexity: O()**
 
 #### Key Takeaways
 
